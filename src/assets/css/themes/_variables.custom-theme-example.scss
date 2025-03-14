@@ -1,0 +1,30 @@
+/*
+ * Custom Theme Variables Example
+ * 
+ * This file contains the variables for a custom theme.
+ * You can modify these variables to customize your theme.
+ */
+
+// Import the base variables
+@import './_variables.scss';
+
+// Override Bootstrap and theme variables
+$primary: #007bff;      // Primary color
+$secondary: #6c757d;    // Secondary color
+$success: #28a745;      // Success color
+$info: #17a2b8;         // Info color
+$warning: #ffc107;      // Warning color
+$danger: #dc3545;       // Danger color
+$light: #f8f9fa;        // Light color
+$dark: #343a40;         // Dark color
+
+// Body
+$body-bg: #f8f9fa;      // Background color
+$body-color: #212529;   // Text color
+
+// Links
+$link-color: $primary;
+$link-hover-color: darken($link-color, 15%);
+
+// You can override any Bootstrap variables here
+// See https://getbootstrap.com/docs/5.3/customize/sass/ for more variables
